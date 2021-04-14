@@ -1,5 +1,5 @@
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/ext/puma_http11
-/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210414-57805-og1ox4.rb extconf.rb
+/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210414-1443-mrejyi.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -38,4 +38,4 @@ linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/puma-3.12.6/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20210414-57805-12r6iyo/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20210414-1443-85fgd8/puma
