@@ -1,5 +1,5 @@
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.3/ext/bootsnap
-/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210414-1443-1w2yqnm.rb extconf.rb
+/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210415-5950-1bu7jcx.rb extconf.rb
 creating Makefile
 
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.3/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.7.3/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210414-1443-d34kgs/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210415-5950-jnexzj/bootsnap

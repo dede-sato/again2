@@ -1,5 +1,5 @@
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
-/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210414-1443-1ymbid4.rb extconf.rb
+/Users/yade/.rbenv/versions/2.6.6/bin/ruby -I /Users/yade/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20210415-5950-a3m5ff.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -39,4 +39,4 @@ linking shared-object ffi_c.bundle
 
 current directory: /Users/yade/DMM/again/task2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.0/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210414-1443-1jfvcf
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20210415-5950-10bdabe
