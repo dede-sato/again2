@@ -1,0 +1,18 @@
+<div class="content-s">
+  <tr>
+    <p><span class="homeT">Title:</span>
+      <%= @book.title %>
+    </p>
+  </tr>
+  <tr>
+    <p><span class="homeT">Body:</span>
+      <%= @book.body %>
+    </p>
+  </tr>
+
+  <tr>
+    <td><%= link_to 'Edit', edit_book_path(@book), class:'jump' %></td>
+    <span>|</span>
+    <td><%= link_to 'Back', books_path, class:'click' %></td>
+  </tr>
+</div>

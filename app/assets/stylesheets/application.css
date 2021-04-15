@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+ 
+/* 全体 */
+body {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+
+/* successメッセージ */
+.notice {
+  color: green;
+}
+
+/* リンク移行ボタン */
+.click {
+  color: #666;
+  font-size: 13px;
+}
+
+.click:hover {
+  cursor: pointer;
+  background: black;
+  color: #fff;
+}

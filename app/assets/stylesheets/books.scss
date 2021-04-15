@@ -1,0 +1,62 @@
+// 全体
+h1 {
+  font-size: 26px;
+}
+
+// index各項目
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+  font-size: 13px;
+}
+
+th {
+  padding: 1 1 1 5px;
+}
+
+
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333;
+  margin: 33px;
+  line-height: 25px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+// 詳細、編集、削除の移行
+.jump {
+  color: #000;
+  font-size: 13px;
+
+}
+
+.jump:hover {
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+
+// formに関するもの
+.form p {
+  margin: 0;
+}
+
+// showに関するもの
+.content-s p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.homeT {
+  font-weight: bold;
+}

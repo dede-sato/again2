@@ -1,0 +1,35 @@
+<div class="content">
+  <h1>Books</h1>
+
+  <div class="home-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Body</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @books.each do |b| %>
+          <tr>
+            <td><%= b.title %></td>
+            <td><%= b.body %></td>
+            <td><%= link_to 'Show', book_path(b), class:'jump' %></td>
+            <td><%= link_to 'Edit', edit_book_path(b), class:'jump' %></td>
+            <td><%= link_to 'Destroy',
+                            book_path(b),
+                            method: :delete,
+                            data: { confirm: 'Are you sure?' },
+                            class:'jump' %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="home-new">
+    <h1>New book</h1>
+    <%= render 'form' %>
+  </div>
+
+</div>
